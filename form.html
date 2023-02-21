@@ -1,0 +1,43 @@
+<h1>Meu Formulario</h1>
+        <form actio="https://formspree.io/f/myyawdpa" methd="Post">
+            <P>
+                <label>Digite Seu Nome</label><br>
+                <input placeholder="Digite Algo" type="text" required="required" value="Sao Paulo" name="Telefone">
+            </P>
+            <p>
+                <label>Digite Uma mensagem</label><br>
+                 <textarea rows="10" cols="16"  required placeholder="Digite Algo"></textarea>
+            </p> 
+            <p>
+                <label>Escolha os esportes que você pratica</label><br>
+                <ul>
+                    <li><input checked="checked" valeu="Judo" nome="judo" type="checkbox">judo</li>
+                    <li><input valeu="Furebol" nome="Futebol" type="checkbox">Futebol</li>
+                    <li><input valeu="Volei" nome="Volei" type="checkbox">Volei</li>
+                    <li><input valeu="Salto com vara " nome="Salto com vara" type="checkbox">Salto com vara</li>
+                </ul>
+                
+            </p> 
+            <p>
+                <label>Escolha sua cor favorita</label><br>
+                <ul>
+                    <li><input valeu="Vermelho" name="corFavorita"  type="radio">Vermelho</li>
+                    <li><input valeu="Azul" name="corFavorita"  type="radio">Azul</li>
+                    <li><input valeu="Amarelo" name="corFavorita"  type="radio">Amarelo</li>
+                </ul>
+                
+            </p>
+            <p>
+                <label>Escolha sua Cidade</label> <br>
+                <select>
+                    <option>São Paulo</option>
+                    <option>Manaus</option>
+                    <option>Cidade Nova</option>
+                    <option>Rio de Janeiro</option>
+                </select>
+            </p>
+            <p>
+                <input value="SIM" name="termodoContrato" type="checkbox">Eu aceito os Termos do Contrato
+            </p>
+            <button type="submit">Enviar dados</button>
+        </form>
